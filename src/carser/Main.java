@@ -17,8 +17,7 @@ public class Main {
         car.setModel(sc.next());
         car.setColor(sc.next());*/
         carSer.registerCar(car);
-        carSer.reCAr(car);
-        carSer.delCar(id);
+        carSer.getCar();
 
 
        ArrayList<Carr> carList =new ArrayList<>();

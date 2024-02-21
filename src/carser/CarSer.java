@@ -13,8 +13,11 @@ public class CarSer {
     public void registerCar(Carr car ) throws Exception{
         CarDA carDA = new CarDA();
         carDA.insert();
+        carDA.update();
+        carDA.delete(id);
+        carDA.select();
     }
-
+/*
     public void reCAr (Carr car) throws Exception{
         CarDA carDA = new CarDA();
         carDA.update();
@@ -23,7 +26,7 @@ public class CarSer {
     public void delCar(int id) throws Exception{
         CarDA carDA = new CarDA();
         carDA.delete(id);
-    }
+    }*/
 
     public ArrayList<Carr> getCar() throws Exception{
         CarDA carDA = new CarDA();
